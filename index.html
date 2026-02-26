@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="javascript" type="text/javascript">
+        // 10 20
+        var A = 10;
+        var B = 20;
+        var linebreak = "<br/>";
+        let result
+        document.write("<h1>Arithmetic operator</h1>")
+        document.write(linebreak);
+        document.write("A + B =");
+        result = A + B;
+        document.write(result + "litre");
+
+        document.write(linebreak);
+        document.write("B - A =");
+        result = B - A;
+        document.write(result + "litre");
+
+        document.write(linebreak);
+        document.write("B % A =");
+        result = B % A;
+        document.write(result + "litre");
+
+        document.write(linebreak);
+        document.write("B * A =");
+        result = B * A;
+        document.write(result + "litre");
+
+        document.write(linebreak)
+        document.write
+
+
+
+
+
+        //MODULUS
+        var userNumber = prompt("Enter a number");
+        document.write(linebreak);
+        document.write(linebreak);
+        var isEven = userNumber%2;
+        document.write("you entered" + userNumber);
+        document.write(linebreak);
+        document.write("is it Even?");
+        document.write(isEven==0);
+        
+        //COMPARISM OPERATOR
+        document.write("<h1>COMPARISM  OPERATOR</h1>");
+        document.write(A==B);
+        document.write(linebreak);
+        document.write(A!=B);
+        document.write(linebreak);
+        document.write(A>B);
+        document.write(linebreak);
+        document.write(A<B);
+        document.write(A>=B)//false 0 ||false 0
+        document.write(linebreak)
+
+
+        //CONDITIONAL OPERATOR
+        
+        document.write(linebreak);
+        var name =prompt("Enter your name");
+        var score=Number(prompt("Enter your scrore"));
+        if(score> 60 && name.length>0){
+            document.write(name + "you passed")
+        }
+        if(score< 60 && name.length>0){
+            document.write(name + "you fail")
+        }
+
+
+
+
+
+
+    </script>
+</body>
+</html>
